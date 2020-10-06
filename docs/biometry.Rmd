@@ -1,5 +1,5 @@
 ---
-title: "Analyse du plancton de Calvi"
+title: "Biométrie humaine"
 author: '....'
 date: "06/10/2020"
 output: html_document
@@ -14,19 +14,19 @@ library(mlearning)
 
 Ce document s'intéresse à la comparaison d'algorithmes.
 
-Proposez le meilleur algorithme afin de prédire la variable `Class` du jeu de données `plancton_set_calvi.csv`.
+Proposez le meilleur algorithme afin de prédire la variable `genre` du jeu de données `biometry.csv`.
 
 **Ce projet est un projet cadré. Vous devez uniquement répondre à la question posée.**
 
 # Analyses
 
-> Importez le jeu de données `plancton_set_calvi.csv`. Assurez vous que chaque variable soit dans un format correcte. 
+> Importez le jeu de données `biometry.csv`. Assurez vous que chaque variable soit dans un format correcte. 
 
 ```{r import}
-zoo <-
+bio <-
 ```
 
-> Utilisez la fonction table() afin de mettre en évidence le nombre de niveau de la variable `Class`ainsi que le nombre d'occurence par niveau de cette variable.
+> Utilisez la fonction table() afin de mettre en évidence le nombre de niveau de la variable `genre`ainsi que le nombre d'occurence par niveau de cette variable.
 
 ```{r table}
 
@@ -48,47 +48,47 @@ zoo <-
 
 ## ADL
 
-> réalisez une analyse discriminante linéaire afin de prédire la variable `Class`. Détaillez le principe de cette analyse en maximum 3 lignes. 
+> réalisez une analyse discriminante linéaire afin de prédire la variable `genre`. Détaillez le principe de cette analyse en maximum 3 lignes. 
 
 ```{r}
-zoo_lda <- 
+bio_lda <- 
 ```
 
 > Obtenez les classes prédites par la lda via une validation croisée. Réalisez ensuite une matrice de confusion. Détaillez le résultat de votre matrice de confusion en maximum 3 lignes.
 
 ```{r}
-zoo_pred <- 
-zoo_conf <- 
+bio_pred <- 
+bio_conf <- 
 ```
 
 ## Quantification vectorielle
 
-> réalisez la quantification vectorielle afin de prédire la variable `Class`. Détaillez le principe de cette analyse en maximum 3 lignes.
+> réalisez la quantification vectorielle afin de prédire la variable `genre`. Détaillez le principe de cette analyse en maximum 3 lignes.
 
 ```{r}
-zoo_lvq <- 
+bio_lvq <- 
 ```
 
 > Obtenez les classes prédites par la lvq via une validation croisée. Réalisez ensuite une matrice de confusion. Détaillez le résultat de votre matrice de confusion en maximum 3 lignes.
 
 ```{r}
-zoo_pred <- 
-zoo_conf <- 
+bio_pred <- 
+bio_conf <- 
 ```
 
 ## Forêt alétoire
 
-> réalisez une forêt aléatoire afin de prédire la variable `Class`. Détaillez le principe de cette analyse en maximum 3 lignes.
+> réalisez une forêt aléatoire afin de prédire la variable `genre`. Détaillez le principe de cette analyse en maximum 3 lignes.
 
 ```{r}
-zoo_rf <- 
+bio_rf <- 
 ```
 
 > Obtenez les classes prédites par la forêt aléatoire via une validation croisée. Réalisez ensuite une matrice de confusion. Détaillez le résultat de votre matrice de confusion en maximum 3 lignes.
 
 ```{r}
-zoo_pred <- 
-zoo_conf <- 
+bio_pred <- 
+bio_conf <- 
 ```
 
 # Conclusion
