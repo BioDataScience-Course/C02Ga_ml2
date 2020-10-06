@@ -90,3 +90,8 @@ zoo_rf <-
 zoo_pred <- 
 zoo_conf <- 
 ```
+
+# Conclusion
+
+> Après avoir testé 3 algorithmes de classification, quel est le meilleur algorithme selon vous ?
+
