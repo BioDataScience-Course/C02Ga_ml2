@@ -1,4 +1,4 @@
-# Exercices pratiques sur la classification supervisée 1 du cours de Science des données 3.
+# Exercices pratiques sur la classification supervisée 2 du cours de Science des données 3.
 
 
 ## Avant-propos
@@ -7,7 +7,7 @@ Cette séance d'exercices est en cours de développement. N'hésitez pas à vér
 
 ## Objectifs
 
-Ce projet est un projet court et cadré. Ce dernier doit être terminé pour la fin du module 1.
+Ce projet est un projet court et cadré. Ce dernier doit être terminé pour la fin du module 2.
 
 - Au sein du fichier `cv.rmd`, complétez les zones manquantes. Ce fichier se trouve dans le dossier docs.
 
